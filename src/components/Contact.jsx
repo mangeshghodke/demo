@@ -21,7 +21,7 @@ export default function Contact() {
           <div className="space-y-6 lg:col-span-2">
             <div className="rounded-2xl border border-gray-200 bg-white p-6 transition hover:shadow-lg dark:border-gray-700 dark:bg-gray-800">
               <div className="flex items-center gap-4">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-amber-100 text-amber-600">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-amber-100 text-amber-600 dark:bg-amber-500/20 dark:text-amber-400">
                   <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                   </svg>
@@ -29,14 +29,14 @@ export default function Contact() {
                 <div>
                   <p className="text-xs text-gray-500 uppercase tracking-wider dark:text-gray-400">Owner</p>
                   <p className="font-semibold text-gray-900 dark:text-white">Alok Indi</p>
-                  <p className="text-xs text-gray-400">Marketing Manager</p>
+                  <p className="text-xs text-gray-400 dark:text-gray-500">Marketing Manager</p>
                 </div>
               </div>
             </div>
 
             <div className="rounded-2xl border border-gray-200 bg-white p-6 transition hover:shadow-lg dark:border-gray-700 dark:bg-gray-800">
               <div className="flex items-start gap-4">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary dark:bg-primary/20 dark:text-primary-light">
                   <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -49,14 +49,14 @@ export default function Contact() {
                     Railway Lines (Bhaiya Chowk Road),<br />
                     Solapur, Maharashtra - 413001
                   </p>
-                  <p className="mt-1 text-xs text-gray-400">0.8 km from Solapur Railway Station</p>
+                  <p className="mt-1 text-xs text-gray-400 dark:text-gray-500">0.8 km from Solapur Railway Station</p>
                 </div>
               </div>
             </div>
 
             <div className="rounded-2xl border border-gray-200 bg-white p-6 transition hover:shadow-lg dark:border-gray-700 dark:bg-gray-800">
               <div className="flex items-center gap-4">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-green-100 text-green-600">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-green-100 text-green-600 dark:bg-green-500/20 dark:text-green-400">
                   <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
@@ -64,14 +64,14 @@ export default function Contact() {
                 <div>
                   <p className="text-xs text-gray-500 uppercase tracking-wider dark:text-gray-400">Call / WhatsApp</p>
                   <p className="font-semibold text-gray-900 dark:text-white">+91 98908 66229</p>
-                  <p className="text-xs text-gray-500">WhatsApp: +91 92170 02598</p>
+                  <p className="text-xs text-gray-500 dark:text-gray-400">WhatsApp: +91 92170 02598</p>
                 </div>
               </div>
             </div>
 
             <div className="rounded-2xl border border-gray-200 bg-white p-6 transition hover:shadow-lg dark:border-gray-700 dark:bg-gray-800">
               <div className="flex items-center gap-4">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-purple-100 text-purple-600">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-purple-100 text-purple-600 dark:bg-purple-500/20 dark:text-purple-400">
                   <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
@@ -79,14 +79,14 @@ export default function Contact() {
                 <div>
                   <p className="text-xs text-gray-500 uppercase tracking-wider dark:text-gray-400">Business Hours</p>
                   <p className="font-semibold text-gray-900 dark:text-white">9:00 AM – 9:00 PM</p>
-                  <p className="text-xs text-gray-500">Open 7 days a week</p>
+                  <p className="text-xs text-gray-500 dark:text-gray-400">Open 7 days a week</p>
                 </div>
               </div>
             </div>
 
             <div className="rounded-2xl border border-gray-200 bg-white p-6 transition hover:shadow-lg dark:border-gray-700 dark:bg-gray-800">
               <div className="flex items-start gap-4">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-600">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-600 dark:bg-blue-500/20 dark:text-blue-400">
                   <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
@@ -94,8 +94,8 @@ export default function Contact() {
                 <div>
                   <p className="text-xs text-gray-500 uppercase tracking-wider dark:text-gray-400">Ratings & Reviews</p>
                   <p className="font-semibold text-gray-900 dark:text-white">4.9 ⭐ on magicpin (502 reviews)</p>
-                  <p className="text-xs text-gray-500">4.6 ⭐ on JustDial (111 ratings) · Verified Business</p>
-                  <p className="text-xs text-gray-400 mt-1">168+ people recently enquired</p>
+                  <p className="text-xs text-gray-500 dark:text-gray-400">4.6 ⭐ on JustDial (111 ratings) · Verified Business</p>
+                  <p className="text-xs text-gray-400 mt-1 dark:text-gray-500">168+ people recently enquired</p>
                 </div>
               </div>
             </div>
@@ -118,7 +118,7 @@ export default function Contact() {
             <div className="mt-6 flex flex-wrap gap-3">
               <a
                 href="tel:+919890866229"
-                className="inline-flex items-center gap-2 rounded-full bg-green-50 px-5 py-2.5 text-sm font-semibold text-green-700 transition hover:bg-green-100"
+                className="inline-flex items-center gap-2 rounded-full bg-green-50 px-5 py-2.5 text-sm font-semibold text-green-700 transition hover:bg-green-100 dark:bg-green-500/10 dark:text-green-400 dark:hover:bg-green-500/20"
               >
                 <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />

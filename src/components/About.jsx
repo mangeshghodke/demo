@@ -64,7 +64,7 @@ export default function About() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {highlights.map((h, i) => (
             <div key={i} className="rounded-2xl border border-gray-200 bg-white p-6 text-center transition hover:border-primary/20 hover:shadow-lg dark:border-gray-700 dark:bg-gray-800">
-              <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary dark:bg-primary/20">
+              <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary dark:bg-primary/20 dark:text-primary-light">
                 {h.icon}
               </div>
               <h3 className="mt-4 font-bold text-gray-900 dark:text-white">{h.title}</h3>
