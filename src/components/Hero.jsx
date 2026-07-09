@@ -35,7 +35,7 @@ export default function Hero() {
         <div className="max-w-3xl">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-400/10 px-4 py-1.5 text-sm text-amber-300 whitespace-nowrap">
             <span className="h-2 w-2 rounded-full bg-amber-400 animate-pulse" />
-            Est. 2017 — Manufacturer & Supplier, Solapur
+            Est. 1980 — Manufacturer & Supplier, Solapur
           </div>
 
           <h1 className="text-3xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl lg:leading-tight">

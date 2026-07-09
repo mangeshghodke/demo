@@ -5,7 +5,8 @@ export default function Footer() {
         <div className="grid gap-8 sm:grid-cols-3">
           <div>
             <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Mayur Art" className="h-12 w-12" />
-            <p className="mt-2 text-sm text-gray-400">
+            <p className="mt-2 text-lg font-bold text-white">मयूर आर्ट</p>
+            <p className="text-sm text-gray-400">
               Premium sign boards manufacturer & supplier in Solapur, Maharashtra since 2017.
             </p>
           </div>
