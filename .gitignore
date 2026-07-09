@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Generated logo variants
+public/*-white-bg.*
+public/*-content-only.*
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
