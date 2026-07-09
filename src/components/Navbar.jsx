@@ -43,7 +43,7 @@ export default function Navbar() {
             <ThemeToggle />
             <button
               onClick={() => setOpen(!open)}
-              className="flex items-center justify-center rounded-none p-2 text-gray-600 transition hover:bg-gray-200 dark:text-gray-400 dark:hover:bg-gray-700"
+              className="flex items-center justify-center rounded-none p-2 text-gray-600 transition hover:bg-white/20 dark:text-gray-400 dark:hover:bg-white/10"
               aria-label="Toggle navigation"
             >
               <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
