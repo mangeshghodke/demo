@@ -37,7 +37,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
             <img src={`${import.meta.env.BASE_URL}logo-md.png`} alt="Mayur Art" className="h-9 w-9 sm:h-10 sm:w-10" />
-            <span className="text-lg font-bold text-gray-900 dark:text-white">मयूर आर्ट</span>
+            <span className="text-lg font-bold text-gray-900 dark:text-white" style={{ fontFamily: "'Noto Sans Devanagari', 'Nirmala UI', 'Mangal', sans-serif" }}>मयूर आर्ट</span>
           </Link>
           <div className="flex items-center gap-1 sm:gap-2 md:hidden">
             <ThemeToggle />
